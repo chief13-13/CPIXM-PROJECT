@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+</head>
+<body>
+    <h1>javascript function</h1>
+    <p id="demo"></p>
+    <button onclick="goodmorning()">greeting1</button>
+
+    <p id="demo2"></p>
+    <button onclick="document.getElementById('demo2').innerHTML = 'good afternoon' ">greeting2</button>
+   
+    <p id="demo3"></p>
+    <button onclick ="fruit('demo3')">fruit</button>
+    <script>
+
+        function goodmorning(){
+            document.getElementById("demo").innerHTML = "good morning";
+            alert("good morning");
+        }
+
+       function fruit(){
+            document.getElementById("demo3").innerHTML = "fruit";
+            alert("fruit");
+        }
+
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATING TABLES</title>
+    <STYLE>
+       TABLE {
+        width: 50%;
+        border: 2px SOLID yellow;
+        height: 200%;
+        margin-left: 250px;
+        border-style: dashed;
+       }
+       TH {
+        background-color: rgb(238, 9, 9);
+        color: WHITE;
+       }
+       TD {
+        color: black;
+        background-color: GREY;
+       }
+       
+       .table2{
+            margin-right: 100px;
+            float: right;
+       }
+       .table2 th{
+        padding-right: 50px;
+        text-align: right;
+        height: 100px;
+       }
+    </STYLE>
+  </head>
+  <body>
+<H2>EMPLOYEE DETAILS</H2>
+<TABLE BORDER="1">
+    <TR>
+        <TH COLSPAN="2">IT</TH>
+        <TH COLSPAN="2">ACCOUNTS</TH>
+    </TR>
+    <TR>
+        <TH>NAME</TH>
+        <TH>LOCATION</TH>
+        <TH>NAME</TH>
+        <TH>LOCATION</TH>
+    </TR>
+    <TR>
+    <TD>DAVID</TD>
+    <TD>NEW YORK</TD>
+    <TD>JOHN</TD>
+    <TD>LONDON</TD>
+    </TR>
+    <TR>
+        <TD>KATTHY</TD>
+        <TD>NEW JERSEY</TD>
+        <TD>PETER</TD>
+        <TD>LOS ANGELES</TD>
+    </TR>
+</TABLE>
+<HR>
+
+    <BR>
+
+        <h2>automobile list</h2>
+
+        <TABLE class="table2" BORDER="1">
+            <TR>
+                <TH>MANUFACTURER</TH>
+                <TH>MODEL</TH>
+                <TH>PRICE</TH>
+            </TR>
+            <TR>
+                <TH rowspan="3">AUDI</TH>
+                    <TD>A4</TD>
+                    <TD>34.5</TD>
+            </TR>
+            <TR>
+                <TD>A5</TD>
+                <TD>42.6</TD>
+            </TR>
+            <TR>
+                <TD>A6</TD>
+                <TD>30.75</TD>
+            </TR>
+            <TR>
+            <TH rowspan="2">BMW</TH>
+            <TD>328i</TD>
+            <TD>30.75</TD>
+            </TR>
+            <TR>
+                <TD>530D</TD>
+                <TD>47.5</TD>
+            </TR>
+        </TABLE>
+  </body>
+</html>
