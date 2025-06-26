@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class task</title>
+</head>
+<body>
+    <h1 style="text-align: center;">class task</h1>
+
+
+    <script>
+
+        var names = new Array('John', 'Jane', 'Doe');
+        function change_names(names) {
+            names[0] = 'Alice';
+            names[1]= 'chris';
+            names[2] = 'ola';
+        }
+
+        function display_names() {
+            document.writeln('<h3> list of names</h3>');
+            document.write('<ul>');
+            for (var i = 0; i < names.length; i++) {
+                document.write('<li>' + names[i] + '</li>');
+            }
+        
+
+        document.write('</ul>');
+        change_names(names);
+        document.write('<h3>Updated list of names</h3>');
+        document.write('<ul>');
+        for (var i = 0; i < names.length; i++) {
+            document.writeln('<li>' + names[i] + '</li>');
+        }
+        document.writeln('</ul>');
+        }
+        display_names();
+    </script>
+
+    <script>
+
+        function factorial(num) {
+            if (num==0)
+                return 0;
+            else if (num==1)
+                return 1;
+            else {
+                var result = num;
+                while (num > 1) 
+                {
+                    result= result * (num - 1);
+                    num--;
+                }
+                return result;
+            }
+            }
+        var num =prompt ('Enter a number to find its factorial:','');
+        var result = factorial(num);
+        alert('The factorial of ' + num + ' is ' + result + '.');
+    </script>
+
+</body>
+</html>

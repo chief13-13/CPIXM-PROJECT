@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mobile developement</title>
+    <script
+      src="https://kit.fontawesome.com/cbac1ad423.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        width: 500px;
+        height: 800px;
+        body-sizing: border-box;
+        justify-content: center;
+        background-color: yellow;
+        margin: 400;
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .pro-pics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+        .pro-pics img {
+            border-radius: 50%;
+            border: 2px solid black;
+            position: relative;
+        }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+        <div class="top">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>my profile</h1>
+         <i class="fa-regular fa-gear"></i>  
+        </div>
+
+      <div class="pro-pics">
+        <img src="/3.jpg" alt="profile picture" width="100" height="100" />
+        <i class="fa-solid fa-camera"></i>
+        <div class="name">
+            <h1>emeka</h1>
+            <p>emmynmereole@gmail.com</p>
+        <button>edit profile</button>
+        </div>
+      </div>
+
+      <p><i class="fa-solid fa-heart"></i> favorite <i class="fa-solid fa-arrow-right"></i></p>
+      <p><i class="fa-solid fa-download"></i>download <i class="fa-solid fa-arrow-right"></i></p>
+      <hr />
+      <p><i class="fa-solid fa-globe"></i>Language<i class="fa-solid fa-arrow-right"></i></p>
+      <p><i class="fa-solid fa-location-dot"></i>location<i class="fa-solid fa-arrow-right"></i></p>
+      <p><i class="fa-solid fa-bell"></i>subscription<i class="fa-solid fa-arrow-right"></i></p>
+      <p><i class="fa-solid fa-desktop"></i>display</p>
+      <hr />
+      <p><i class="fa-solid fa-trash"></i>clear cache<i class="fa-solid fa-arrow-right"></i></p>
+      <p><i class="fa-solid fa-clock-rotate-left"></i>clear history<i class="fa-solid fa-arrow-right"></i></p>
+      <p><i class="fa-solid fa-right-from-bracket"></i>logout<i class="fa-solid fa-arrow-right"></i></p>
+      <hr>
+    </section>
+  </body>
+</html>
